@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solaris</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/index.js" type="module"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@300&family=Secular+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <section id="pageOne">
+    <header class="headings">
+      <h1 class="headings__title">Solsystemet</h1>
+      <h2>SOLARIS</h2>
+    </header>
+    <section class="planets">
+      <div class="planets__planet sun"></div>
+      <div class="planets__planet planets__planet--mercury"></div>
+      <div class="planets__planet planets__planet--venus"></div>
+      <div class="planets__planet planets__planet--earth"></div>
+      <div class="planets__planet planets__planet--mars"></div>
+      <div class="planets__planet planets__planet--jupiter"></div>
+      <div class="planets__planet planets__planet--saturn">
+        <div class="planets__ellipse"></div>
+      </div>
+      <div class="planets__planet planets__planet--uranus"></div>
+      <div class="planets__planet planets__planet--neptune"></div>
+    </section>
+  </section>
+
+  <section id="pageTwo" class="hide">
+    <div class="sun sun--secondary"></div>
+    <div class="sun sun--first-layer"></div>
+    <div class="sun sun--second-layer"></div>
+
+    <section class="info">
+      <section class="info__text">
+        <h1 class="info__name">Jorden</h1>
+        <h2 class="info__latin-name">Tellus</h2>
+        <p class="info__desc"></p>
+        <hr />
+      </section>
+      <section class="info__stats">
+        <article class="info__stat">
+          <h3 class="info__stat-title">Omkrets</h3>
+          <p class="info__stat-answer"><span id="circumference"></span> km</p>
+        </article>
+        <article class="info__stat">
+          <h3 class="info__stat-title">km från solen</h3>
+          <p class="info__stat-answer" id="distance"></p>
+        </article>
+        <article class="info__stat">
+          <h3 class="info__stat-title">Max Temperatur</h3>
+          <p class="info__stat-answer"><span id="max-temp"></span>C</p>
+        </article>
+        <article class="info__stat">
+          <h3 class="info__stat-title">Min temperatur</h3>
+          <p class="info__stat-answer"><span id="min-temp"></span>C</p>
+        </article>
+        <hr class="info__stats-hr" />
+        <article class="info__stat info__stat-moons">
+          <h3 class="info__stat-title">Månar</h3>
+          <p class="info__stat-answer" id="moons"></p>
+        </article>
+      </section>
+    </section>
+  </section>
+</body>
+
+</html>
