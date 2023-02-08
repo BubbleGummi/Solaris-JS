@@ -1,3 +1,4 @@
+// I denna modul delas informationen ut till vilken del av html elementen som respektive info kring planeterna ska ingå i
 const INFO_ELEMS = {
   NAME: document.querySelector('.info__name'),
   LATIN_NAME: document.querySelector('.info__latin-name'),

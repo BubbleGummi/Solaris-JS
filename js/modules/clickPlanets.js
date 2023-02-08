@@ -1,4 +1,4 @@
-// Denna modul gör planeterna klickbara och displayar page two. Denna modul är ansvarig för alla onClick events.
+// Denna modul gör planeterna klickbara och visar page two och är ansvarig för alla click events som sker 
 
 import { ALL_PLANETS_DATA } from '../index.js';
 import { changeInfo } from './information.js';

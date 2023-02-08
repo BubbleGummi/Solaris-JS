@@ -1,3 +1,4 @@
+// Här hämtas API nyckel och står för sig själv då det bara variabeln getPlanets används 
 const BASE_URL = 'https://my-json-server.typicode.com/zocom-christoffer-wallenberg/solaris-api';
 
 async function getKey() {
